@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-image: url(./imagens/fundo19020x1080px.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+.buttons {
+  animation-name: showup;
+  animation-duration: 2s;
+  opacity: 1;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  opacity: 1;
+}
+
+.bot {
+  width: 18rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 4px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.bot1 {
+  width: 27rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  animation-name: showup;
+  animation-duration: 4s;
+}
+
+.welcomtxt {
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: x-large;
+  background-color: rgb(250, 105, 250);
+  border-radius: 10px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: 2px solid white;
+  animation-name: showup;
+  animation-duration: 4s;
+}
+
+.news {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  animation-name: showup;
+  animation-duration: 4s;
+}
+#imgnews {
+  border: 10px solid rgb(250, 105, 250);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(250, 105, 250);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: rgb(255, 177, 255);
+}
+
+.suporte {
+  margin-top: 2rem;
+  display: grid;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: xx-large;
+  background-color: rgb(250, 105, 250);
+  border-radius: 10px;
+  margin: 4rem;
+  border: 2px solid white;
+  animation-name: showup;
+  animation-duration: 2s;
+  position: static;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline transparent;
+}
+
+.newtxt {
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+  font-size: 100px;
+  border-radius: 10px;
+  margin-left: 43rem;
+  margin-right: 43rem;
+  border: 2px solid white;
+  animation-name: showup;
+  animation-duration: 4s;
+  background-color: rgba(255, 255, 255, 0.301);
+}
+
+.bot:hover {
+  transform: scale(1.5, 1.5);
+  background-color: rgba(90, 255, 239, 0.39);
+}
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.suport {
+  transition: 0.5s;
+}
+
+.suport:hover {
+  color: rgb(158, 0, 105);
+}
